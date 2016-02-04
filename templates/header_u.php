@@ -54,12 +54,12 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="./about.php">About <span class="sr-only">(current)</span></a></li>
         <li><a href="./spots.php">Spots</a></li>
-        <li><a href="#">Insert</a></li>
+        <li><a href="./insert.php">Insert</a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Sign up</a></li>
-        <li><a href="#">Sign in</a></li>
+        <li><a href="./register.php">Sign up</a></li>
+        <li><a href="./login.php">Sign in</a></li>
       </ul>
 
     </div>

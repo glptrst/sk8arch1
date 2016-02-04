@@ -1,11 +1,22 @@
 <div id="sortingBar">
-	<form>
-		Sorty by: 
-		<input type="radio" name="votes" value="votes" checked="checked">votes</input>
-		<input type="radio" name="skateboarder" value="skateboarder">skateboarder</input>
-		<input type="radio" name="year" value="year">year</input> 
+<?php
+    //load the right page when user sorts the tricks (chose the right query string for the action attribute of the form)
+    if ($_GET["id"] == 1)
+        echo "<form action=\"display.php?id=1\" method=\"post\">";
+    if ($_GET["id"] == 2)
+        echo "<form action=\"display.php?id=2\" method=\"post\">";
+    if ($_GET["id"] == 3)
+        echo "<form action=\"display.php?id=3\" method=\"post\">";
+    if ($_GET["id"] == 4)
+        echo "<form action=\"display.php?id=4\" method=\"post\">";
+?>
+
+		Sort by: 
+		<input type="radio" name="sortingMethod" value="skater" onclick="this.form.submit()">skateboarder</input>
+		<input type="radio" name="sortingMethod" value="source" onclick="this.form.submit();">source</input> 
 	</form>
 </div>
+
 <div>
     <table class="table table-striped">
         <thead>
