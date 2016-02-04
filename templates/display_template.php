@@ -1,3 +1,4 @@
+<!-- SORTING CHOICE -->
 <div id="sortingBar">
 <?php
     //load the right page when user sorts the tricks (chose the right query string for the action attribute of the form)
@@ -10,13 +11,14 @@
     if ($_GET["id"] == 4)
         echo "<form action=\"display.php?id=4\" method=\"post\">";
 ?>
-
-		Sort by: 
-		<input type="radio" name="sortingMethod" value="skater" onclick="this.form.submit()">skateboarder</input>
-		<input type="radio" name="sortingMethod" value="source" onclick="this.form.submit();">source</input> 
+Sort by: 
+<input type="radio" name="sortingMethod" value="skater" onclick="this.form.submit();" 
+<?php if($_SERVER["REQUEST_METHOD"] == "GET" || $_POST["sortingMethod"] == "skater") echo "checked"; ?> >skateboarder</input>
+<input type="radio" name="sortingMethod" value="source" onclick="this.form.submit();" 
+<?php if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST["sortingMethod"] == "source") echo "checked"; ?> >source</input> 
 	</form>
 </div>
-
+<!-- TRICKS -->
 <div>
     <table class="table table-striped">
         <thead>
