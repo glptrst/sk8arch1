@@ -2,19 +2,8 @@
 <html>
 
 <head>
-        
-        <!-- http://getbootstrap.com/ -->
         <link href="./css/bootstrap.min.css" rel="stylesheet"/>
         <link href="./css/bootstrap-theme.min.css" rel="stylesheet"/>   
-        <!-- <link href="/css/signin.css" rel="stylesheet"> -->
-         
-        <?php
-            /*
-              if ($loginpage === true)) {
-                echo "<link href=\"/css/signin.css\" rel=\"stylesheet\">";
-            }
-             */
-        ?>
 
         <!-- Our CSS -->
         <link href="./css/styles.css" rel="stylesheet"/>
