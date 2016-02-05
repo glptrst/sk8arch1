@@ -1,0 +1,38 @@
+#columns {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#column1, #column2, #column3 {
+    width: 31.3%;
+    float: left;
+    margin: 0 1% 1% 1%;
+    text-align: justify;
+}
+
+h3 {
+    text-align: center;
+}
+
+#column3 {margin-right: 0%;}
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#bottom
+{
+    /*resolve float problem with columns*/
+    clear: left;
+}
+
+#very_bottom {
+    /*shrink font size */
+    font-size: smaller;
+    /*surround with whitespace */
+    margin: 20px;
+}
