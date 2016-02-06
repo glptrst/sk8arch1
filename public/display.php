@@ -9,7 +9,7 @@
         $spot_info = query("SELECT * FROM spots WHERE id = ?", $_GET["id"]);
 
         //store tricks rows of the spot in $tricks 
-        $tricks = query("SELECT skater, trick, source, link FROM tricks WHERE id = ?", $_GET["id"]);
+        $tricks = query("SELECT * FROM tricks WHERE id = ?", $_GET["id"]);
         $counter = 0;
 
         //sort tricks by skater
