@@ -1,3 +1,7 @@
+<div id="spot_title">
+Spot: <?= $spot_info[0]["name"] ?>, <?= $spot_info[0]["city"] ?>, <?= $spot_info[0]["state"] ?>.
+</div>
+
 <!-- SORTING CHOICE -->
 <div id="sortingBar">
 <?php

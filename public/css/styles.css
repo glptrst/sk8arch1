@@ -16,6 +16,10 @@ h3 {
     text-align: center;
 }
 
+#sortingBar {
+    text-align: right;
+}
+
 #column3 {margin-right: 0%;}
 
 .container

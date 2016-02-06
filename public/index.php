@@ -3,7 +3,7 @@
     //configuration
     require("../includes/config.php");
 
-    //why invalid template?
+    //render home
     render2("home_template.php", ["title" => "Home"]);
 
 ?>
