@@ -6,7 +6,7 @@
         <div id="bottom">
         
             <div id="very_bottom">
-                Contact Us
+                <a href="contacts.php">Contact Us</a>
             </div>
         </div> <!-- bottom -->
 

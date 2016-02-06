@@ -40,7 +40,7 @@ Sort by:
                     <td><?= $trick["trick"] ?></td>
                     <td><?= $trick["source"] ?></td>
                     <td><a href=<?= $trick["link"] ?> target="_blank">&#x21E8</a></td>
-                    <td><a href="">more info</a></td>
+                    <td><a href="trick_page.php?num=<?= $trick["num"] ?>">more info</a></td>
                 </tr> 
             <?php endforeach ?>
         </tbody>
